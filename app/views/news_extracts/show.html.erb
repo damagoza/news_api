@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Mediumcategory:</strong>
+  <%= @news_extract.MediumCategory %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @news_extract.title %>
+</p>
+
+<p>
+  <strong>Content:</strong>
+  <%= @news_extract.content %>
+</p>
+
+<%= link_to 'Edit', edit_news_extract_path(@news_extract) %> |
+<%= link_to 'Back', news_extracts_path %>

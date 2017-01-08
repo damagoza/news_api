@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Medium:</strong>
+  <%= @medium_category.medium %>
+</p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @medium_category.category %>
+</p>
+
+<p>
+  <strong>Url:</strong>
+  <%= @medium_category.url %>
+</p>
+
+<%= link_to 'Edit', edit_medium_category_path(@medium_category) %> |
+<%= link_to 'Back', medium_categories_path %>
