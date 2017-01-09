@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170106040504) do
+ActiveRecord::Schema.define(version: 20170109032624) do
 
   create_table "categories", force: :cascade do |t|
     t.string   "name"
@@ -44,6 +44,7 @@ ActiveRecord::Schema.define(version: 20170106040504) do
     t.datetime "created_at",                     null: false
     t.datetime "updated_at",                     null: false
     t.string   "url",               default: ""
+    t.string   "image",             default: ""
   end
 
   add_index "news_extracts", ["MediumCategory_id"], name: "index_news_extracts_on_MediumCategory_id"

@@ -12,7 +12,9 @@ File.open("db/seeds.rb", "w") do |file|
 		url = noticia.css('h3 a')
 		link = url.map { |link| link['href'] }
 		title = url.children
-		texto = url.children	
+		texto = url.children
+		puts noticia		
+		# image = noticia.css('img').attr('src')		
 		if title.text != '' && texto.text != ''
 			file.puts "NewsExtract.create(:MediumCategory_id => 2, :title => '#{title}', :content => '#{texto}', :url => '#{link[0]}')"			 	
 		end	 		

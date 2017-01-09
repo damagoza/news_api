@@ -1,3 +1,3 @@
 class NewsExtractSerializer < ActiveModel::Serializer
-  attributes :id, :MediumCategory_id, :title, :content, :created_at, :url
+  attributes :id, :MediumCategory_id, :title, :content, :created_at, :url, :image
 end

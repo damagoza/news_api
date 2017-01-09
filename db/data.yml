@@ -1,0 +1,1126 @@
+
+---
+media:
+  columns:
+  - id
+  - name
+  - url
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - El tiempo
+    - http://www.eltiempo.com
+    - '2017-01-06 04:07:53.931045'
+    - '2017-01-06 04:07:53.931045'
+  - - 2
+    - El colombiano
+    - http://www.elcolombiano.com
+    - '2017-01-06 04:07:53.935168'
+    - '2017-01-06 04:08:53.155137'
+
+---
+categories:
+  columns:
+  - id
+  - name
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - Deportes
+    - '2017-01-06 04:07:53.940428'
+    - '2017-01-06 04:07:53.940428'
+  - - 2
+    - Colombia
+    - '2017-01-07 16:07:56.489646'
+    - '2017-01-07 16:07:56.489646'
+  - - 3
+    - Tecnologia
+    - '2017-01-07 16:14:10.474338'
+    - '2017-01-07 16:14:10.474338'
+
+---
+medium_categories:
+  columns:
+  - id
+  - medium_id
+  - category_id
+  - url
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - 1
+    - 1
+    - http://www.eltiempo.com/deportes
+    - '2017-01-06 04:07:53.949221'
+    - '2017-01-06 04:07:53.949221'
+  - - 2
+    - 2
+    - 1
+    - http://www.elcolombiano.com/deportes
+    - '2017-01-06 04:07:53.951934'
+    - '2017-01-06 04:07:53.951934'
+  - - 3
+    - 1
+    - 2
+    - http://www.eltiempo.com/colombia
+    - '2017-01-07 16:19:45.976083'
+    - '2017-01-07 16:19:45.976083'
+  - - 4
+    - 1
+    - 3
+    - http://www.eltiempo.com/tecnosfera
+    - '2017-01-07 16:19:45.981675'
+    - '2017-01-07 16:19:45.981675'
+  - - 5
+    - 2
+    - 2
+    - http://www.elcolombiano.com/colombia
+    - '2017-01-07 16:19:45.985126'
+    - '2017-01-07 16:19:45.985126'
+  - - 6
+    - 2
+    - 3
+    - http://www.elcolombiano.com/tecnologia
+    - '2017-01-07 16:19:45.988213'
+    - '2017-01-07 16:19:45.988213'
+
+---
+users:
+  columns:
+  - id
+  - email
+  - password
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - damagoza@gmail.com
+    - cataratas
+    - '2017-01-08 17:09:05.738506'
+    - '2017-01-08 17:09:05.738506'
+  - - 2
+    - davidmaogomez@hotmail.com
+    - cataratas
+    - '2017-01-08 17:13:02.267544'
+    - '2017-01-08 17:13:02.267544'
+  - - 3
+    - dileymesa@gmail.com
+    - cataratas
+    - '2017-01-09 04:41:29.079244'
+    - '2017-01-09 04:41:29.079244'
+
+---
+news_extracts:
+  columns:
+  - id
+  - MediumCategory_id
+  - title
+  - content
+  - created_at
+  - updated_at
+  - url
+  - image
+  records: 
+  - - 129
+    - 6
+    - " Uso de tabletas ayuda en casos de demencia\n\t\t\t\t\t"
+    - " Uso de tabletas ayuda en casos de demencia\n\t\t\t\t\t"
+    - '2017-01-09 03:54:00.498110'
+    - '2017-01-09 04:15:55.825206'
+    - "/tecnologia/uso-de-tabletas-ayuda-en-casos-de-demencia-FD5720421"
+    - http://www.elcolombiano.com//documents/10157/0/241x161/0c16/241d129/none/11101/ELXY/image_content_27768015_20170107212227.jpg
+  - - 130
+    - 6
+    - " Las apps colombianas más exitosas\n\t\t\t\t\t"
+    - " Las apps colombianas más exitosas\n\t\t\t\t\t"
+    - '2017-01-09 03:54:00.503678'
+    - '2017-01-09 04:15:55.832198'
+    - "/tecnologia/aplicaciones/aplicaciones-moviles-colombianas-mas-descargadas-XM5718374"
+    - http://www.elcolombiano.com//documents/10157/0/241x240/0c55/241d129/none/11101/LRFY/image_content_27788776_20170107170814.jpg
+  - - 131
+    - 6
+    - " Nissan presenta en el CES su nueva tecnología \n\t\t\t\t\t"
+    - " Nissan presenta en el CES su nueva tecnología \n\t\t\t\t\t"
+    - '2017-01-09 03:54:00.506848'
+    - '2017-01-09 04:15:55.838975'
+    - "/entretenimiento/motores/nissan-presenta-en-el-ces-su-nueva-tecnologia-BX5716737"
+    - http://www.elcolombiano.com//documents/10157/0/241x141/0c6/241d129/none/11101/HQGQ/image_content_27775105_20170106233541.jpg
+  - - 132
+    - 6
+    - " Las novedades de la feria CES 2017\n\t\t\t\t\t"
+    - " Las novedades de la feria CES 2017\n\t\t\t\t\t"
+    - '2017-01-09 03:54:00.509919'
+    - '2017-01-09 04:15:55.845934'
+    - "/multimedia/imagenes/las-novedades-de-la-feria-ces-2017-DC5712234"
+    - http://www.elcolombiano.com//documents/10157/0/241x161/0c16/241d129/none/11101/MRXY/image_content_27781066_20170106122056.jpg
+  - - 133
+    - 6
+    - " Los ‘burlones’ de las redes sociales  \n\t\t\t\t\t"
+    - " Los ‘burlones’ de las redes sociales  \n\t\t\t\t\t"
+    - '2017-01-09 03:54:00.513890'
+    - '2017-01-09 04:15:55.850980'
+    - "/redes-sociales/los-burlones-de-las-redes-sociales-CE5710848"
+    - http://www.elcolombiano.com//documents/10157/0/241x181/0c26/241d129/none/11101/OMLY/image_content_27776575_20170105215731.jpg
+  - - 134
+    - 6
+    - " Blackberry insiste con el teclado\n\t\t\t\t\t"
+    - " Blackberry insiste con el teclado\n\t\t\t\t\t"
+    - '2017-01-09 03:54:00.518247'
+    - '2017-01-09 04:15:55.862938'
+    - "/tecnologia/gadgets/blackberry-insiste-con-el-teclado-XN5708635"
+    - http://www.elcolombiano.com//documents/10157/0/241x181/0c26/241d129/none/11101/JMLY/image_content_27770664_20170105162747.jpg
+  - - 135
+    - 6
+    - " Diseñan casas para vivir en Marte\n\t\t\t\t\t"
+    - " Diseñan casas para vivir en Marte\n\t\t\t\t\t"
+    - '2017-01-09 03:54:00.521561'
+    - '2017-01-09 04:15:55.869553'
+    - "/tecnologia/ciencia/una-casa-de-hielo-para-vivir-en-marte-AN5708389"
+    - http://www.elcolombiano.com//documents/10157/0/241x241/0c96/241d129/none/11101/FMHY/image_content_27770600_20170105155428.jpg
+  - - 136
+    - 6
+    - " Instagram Vs. Snapchat, lucha entre el recuerdo y lo efímero\n\t\t\t\t\t"
+    - " Instagram Vs. Snapchat, lucha entre el recuerdo y lo efímero\n\t\t\t\t\t"
+    - '2017-01-09 03:54:00.525273'
+    - '2017-01-09 04:15:55.876690'
+    - "/tecnologia/instagram-vs-snapchat-lucha-entre-el-recuerdo-y-lo-efimero-CX5707026"
+    - http://www.elcolombiano.com//documents/10157/0/241x207/0c39/241d129/none/11101/OLMY/image_content_27765000_20170104225740.jpg
+  - - 137
+    - 6
+    - " Hoy inicia la feria de tecnología que muestra los más grandes avances\n\t\t\t\t\t"
+    - " Hoy inicia la feria de tecnología que muestra los más grandes avances\n\t\t\t\t\t"
+    - '2017-01-09 03:54:00.528505'
+    - '2017-01-09 04:15:55.880099'
+    - "/tecnologia/ces-2017-inicia-la-feria-de-tecnologia-mas-grande-EB5704879"
+    - http://www.elcolombiano.com//documents/10157/0/241x170/0c20/241d129/none/11101/DLDY/image_content_27763758_20170104170652.jpg
+  - - 138
+    - 6
+    - " Estos son los inventos tecnológicos que se verán en 2017\n\t\t\t\t\t"
+    - " Estos son los inventos tecnológicos que se verán en 2017\n\t\t\t\t\t"
+    - '2017-01-09 03:54:00.531965'
+    - '2017-01-09 04:15:55.883435'
+    - "/tecnologia/inventos-tecnologicos-para-2017-AB5704435"
+    - http://www.elcolombiano.com//documents/10157/0/241x173/0c22/241d129/none/11101/KLCY/image_content_27767050_20170104162312.jpg
+  - - 139
+    - 6
+    - " El universo de los videojuegos ya ilumina con sus nuevas estrellas \n\t\t\t\t\t"
+    - " El universo de los videojuegos ya ilumina con sus nuevas estrellas \n\t\t\t\t\t"
+    - '2017-01-09 03:54:00.535618'
+    - '2017-01-09 04:15:55.887056'
+    - "/tecnologia/videojuegos/el-universo-de-los-videojuegos-se-ilumina-con-nuevas-estrellas-KE5699840"
+    - http://www.elcolombiano.com//documents/10157/0/241x271/0c71/241d129/none/11101/AOBY/image_content_27754697_20170103162553.jpg
+  - - 140
+    - 6
+    - " Así se espera que sea la tecnología para este año\n\t\t\t\t\t"
+    - " Así se espera que sea la tecnología para este año\n\t\t\t\t\t"
+    - '2017-01-09 03:54:00.538946'
+    - '2017-01-09 04:15:55.890686'
+    - "/tecnologia/estas-seran-las-tendencias-en-tecnologia-para-2017-KJ5694286"
+    - http://www.elcolombiano.com//documents/10157/0/241x161/0c16/241d129/none/11101/NNXY/image_content_27747104_20170102171131.jpg
+  - - 141
+    - 6
+    - " Así puede planear un viaje solo con su celular\n\t\t\t\t\t"
+    - " Así puede planear un viaje solo con su celular\n\t\t\t\t\t"
+    - '2017-01-09 03:54:00.542434'
+    - '2017-01-09 04:15:55.894697'
+    - "/tecnologia/aplicaciones/asi-puede-planear-un-viaje-solo-con-su-celular-YN5690302"
+    - http://www.elcolombiano.com//documents/10157/0/242x241/0c0/241d129/none/11101/CUAQ/image_content_27735535_20170101192335.jpg
+  - - 142
+    - 6
+    - " En la U. de. A estudian veneno de serpiente para combatir la leucemia\n\t\t\t\t\t"
+    - " En la U. de. A estudian veneno de serpiente para combatir la leucemia\n\t\t\t\t\t"
+    - '2017-01-09 03:54:00.545533'
+    - '2017-01-09 04:15:55.898373'
+    - "/tecnologia/ciencia/estudian-veneno-de-serpiente-para-combatir-leucemia-CH5687141"
+    - http://www.elcolombiano.com//documents/10157/0/241x161/0c16/241d129/none/11101/INXY/image_content_27741582_20161231163659.jpg
+  - - 143
+    - 6
+    - " Hoy será el día más largo desde el 2008\n\t\t\t\t\t"
+    - " Hoy será el día más largo desde el 2008\n\t\t\t\t\t"
+    - '2017-01-09 03:54:00.549500'
+    - '2017-01-09 04:15:55.903000'
+    - "/tecnologia/ciencia/el-31-de-diciembre-es-el-dia-mas-largo-del-ano-AC5675288"
+    - http://www.elcolombiano.com//documents/10157/0/242x275/0c98/241d129/none/11101/AIXA/image_content_27734442_20161229151442.jpg
+  - - 144
+    - 5
+    - " Conversaciones con el Eln se reactivan el 12 de enero\n\t\t\t\t\t"
+    - " Conversaciones con el Eln se reactivan el 12 de enero\n\t\t\t\t\t"
+    - '2017-01-09 04:36:10.182826'
+    - '2017-01-09 04:36:10.182826'
+    - "/colombia/paz-y-derechos-humanos/conversaciones-con-el-eln-se-reactivan-el-12-de-enero-AF5722020"
+    - ''
+  - - 145
+    - 5
+    - " 7 personas han fallecido en las vías este puente festivo\n\t\t\t\t\t"
+    - " 7 personas han fallecido en las vías este puente festivo\n\t\t\t\t\t"
+    - '2017-01-09 04:36:10.190140'
+    - '2017-01-09 04:36:10.190140'
+    - "/colombia/muertes-y-multas-durante-operacion-retorno-en-colombia-MC5721592"
+    - ''
+  - - 146
+    - 5
+    - " Armada encontró cadáver de ecuatoriana desaparecida en las Islas del Rosario\n\t\t\t\t\t"
+    - " Armada encontró cadáver de ecuatoriana desaparecida en las Islas del Rosario\n\t\t\t\t\t"
+    - '2017-01-09 04:36:10.193390'
+    - '2017-01-09 04:36:10.193390'
+    - "/colombia/ecuatoriana-se-ahogo-en-las-islas-del-rosario-KC5721408"
+    - ''
+  - - 147
+    - 5
+    - " Las megaobras de  Odebrecht, tras 24 años en Colombia\n\t\t\t\t\t"
+    - " Las megaobras de  Odebrecht, tras 24 años en Colombia\n\t\t\t\t\t"
+    - '2017-01-09 04:36:10.196982'
+    - '2017-01-09 04:36:10.196982'
+    - "/colombia/las-megaobras-de-odebrecht-tras-24-anos-en-colombia-KM5718408"
+    - ''
+  - - 148
+    - 5
+    - " Presidente de Francia visitará campamentos de las Farc\n\t\t\t\t\t"
+    - " Presidente de Francia visitará campamentos de las Farc\n\t\t\t\t\t"
+    - '2017-01-09 04:36:10.200672'
+    - '2017-01-09 04:36:10.200672'
+    - "/colombia/paz-y-derechos-humanos/presidente-de-francia-visitara-campamentos-de-las-farc-en-colombia-DN5719252"
+    - ''
+  - - 149
+    - 5
+    - " Nuevas fotos de observadores de ONU bailando en otro campamento de Farc\n\t\t\t\t\t"
+    - " Nuevas fotos de observadores de ONU bailando en otro campamento de Farc\n\t\t\t\t\t"
+    - '2017-01-09 04:36:10.205220'
+    - '2017-01-09 04:36:10.205220'
+    - "/colombia/paz-y-derechos-humanos/nuevas-fotos-de-observadores-de-onu-bailando-en-otro-campamento-de-farc-JY5717856"
+    - ''
+  - - 150
+    - 5
+    - " Armada auxilió a 40 personas que quedaron a la deriva en la isla Barú\n\t\t\t\t\t"
+    - " Armada auxilió a 40 personas que quedaron a la deriva en la isla Barú\n\t\t\t\t\t"
+    - '2017-01-09 04:36:10.208541'
+    - '2017-01-09 04:36:10.208541'
+    - "/colombia/armada-auxilio-a-40-personas-que-quedaron-a-la-deriva-en-la-isla-baru-JY5717821"
+    - ''
+  - - 151
+    - 5
+    - " Cambio Radical defiende a Vargas\n\t\t\t\t\t"
+    - " Cambio Radical defiende a Vargas\n\t\t\t\t\t"
+    - '2017-01-09 04:36:10.212299'
+    - '2017-01-09 04:36:10.212299'
+    - "/colombia/politica/cambio-radical-defiende-a-vargas-FB5715236"
+    - ''
+  - - 152
+    - 5
+    - " Fiscalía fortalecerá la lucha contra el microtráfico\n\t\t\t\t\t"
+    - " Fiscalía fortalecerá la lucha contra el microtráfico\n\t\t\t\t\t"
+    - '2017-01-09 04:36:10.215393'
+    - '2017-01-09 04:36:10.215393'
+    - "/colombia/fiscalia-fortalecera-la-lucha-contra-el-microtrafico-BB5715131"
+    - ''
+  - - 153
+    - 5
+    - " Salud y comida para las Farc aún preocupan\n\t\t\t\t\t"
+    - " Salud y comida para las Farc aún preocupan\n\t\t\t\t\t"
+    - '2017-01-09 04:36:10.219115'
+    - '2017-01-09 04:36:10.219115'
+    - "/colombia/salud-de-guerrilleros-preocupa-BD5713672"
+    - ''
+  - - 154
+    - 5
+    - " Cuatro policías, separados por aparecer en foto con miembros de Farc\n\t\t\t\t\t"
+    - " Cuatro policías, separados por aparecer en foto con miembros de Farc\n\t\t\t\t\t"
+    - '2017-01-09 04:36:10.222666'
+    - '2017-01-09 04:36:10.222666'
+    - "/colombia/paz-y-derechos-humanos/policias-separados-por-foto-con-guerrilleros-de-farc-FD5713043"
+    - ''
+  - - 155
+    - 5
+    - " No hay evidencia sobre atentado con carro bomba en Bogotá: Ejército\n\t\t\t\t\t"
+    - " No hay evidencia sobre atentado con carro bomba en Bogotá: Ejército\n\t\t\t\t\t"
+    - '2017-01-09 04:36:10.226046'
+    - '2017-01-09 04:36:10.226046'
+    - "/colombia/paz-y-derechos-humanos/ejercito-da-parte-de-tranquilidad-sobre-presunto-atentado-del-eln-en-bogota-DC5712072"
+    - ''
+  - - 156
+    - 5
+    - " Comisión recomienda cambiar zona de concentración de Remedios a Segovia\n\t\t\t\t\t"
+    - " Comisión recomienda cambiar zona de concentración de Remedios a Segovia\n\t\t\t\t\t"
+    - '2017-01-09 04:36:10.229739'
+    - '2017-01-09 04:36:10.229739'
+    - "/colombia/acuerdos-de-gobierno-y-farc/visita-a-zona-de-concentracion-de-farc-en-remedios-FF5711799"
+    - ''
+  - - 157
+    - 5
+    - " Dentro del Centro Democrático inició la puja del año preelectoral\n\t\t\t\t\t"
+    - " Dentro del Centro Democrático inició la puja del año preelectoral\n\t\t\t\t\t"
+    - '2017-01-09 04:36:10.233012'
+    - '2017-01-09 04:36:10.233012'
+    - "/colombia/politica/dentro-del-centro-democratico-inicio-la-puja-del-ano-preelectoral-HM5709889"
+    - ''
+  - - 158
+    - 5
+    - " En La Guajira se complica la verificación del cese el fuego\n\t\t\t\t\t"
+    - " En La Guajira se complica la verificación del cese el fuego\n\t\t\t\t\t"
+    - '2017-01-09 04:36:10.236917'
+    - '2017-01-09 04:36:10.236917'
+    - "/colombia/en-la-guajira-se-complica-la-verificacion-del-cese-el-fuego-BM5709773"
+    - ''
+  - - 159
+    - 2
+    - " “Pipe” Pardo fue cedido al Nantes de Francia\n\t\t\t\t"
+    - " “Pipe” Pardo fue cedido al Nantes de Francia\n\t\t\t\t"
+    - '2017-01-09 04:37:54.954697'
+    - '2017-01-09 04:37:54.954697'
+    - "/deportes/futbol-europeo/felipe-pardo-jugara-con-el-nantes-de-francia-GC5721954"
+    - ''
+  - - 160
+    - 2
+    - " Campesino de Dabeiba derrotó a dos ciclistas europeos\n\t\t\t\t"
+    - " Campesino de Dabeiba derrotó a dos ciclistas europeos\n\t\t\t\t"
+    - '2017-01-09 04:37:54.961541'
+    - '2017-01-09 04:37:54.961541'
+    - "/deportes/otros-deportes/ciclistas-europeos-superados-por-campesino-de-dabeiba-YC5721625"
+    - ''
+  - - 161
+    - 2
+    - " Nacional confirmó preacuerdo con Dayro Moreno\n\t\t\t\t"
+    - " Nacional confirmó preacuerdo con Dayro Moreno\n\t\t\t\t"
+    - '2017-01-09 04:37:54.964736'
+    - '2017-01-09 04:37:54.964736'
+    - "/deportes/atletico-nacional/dayro-moreno-y-atletico-nacional-llegaron-a-un-preacuerdo-FC5721557"
+    - ''
+  - - 162
+    - 2
+    - " James le regaló su camiseta a niño peruano que viajó para verlo\n\t\t\t\t"
+    - " James le regaló su camiseta a niño peruano que viajó para verlo\n\t\t\t\t"
+    - '2017-01-09 04:37:54.967756'
+    - '2017-01-09 04:37:54.967756'
+    - "/deportes/futbol-europeo/james-rodriguez-le-regalo-su-camiseta-a-nino-peruano-BC5721524"
+    - ''
+  - - 163
+    - 2
+    - " En Doha, Nole amplió el dominio frente a Murray\n\t\t\t\t"
+    - " En Doha, Nole amplió el dominio frente a Murray\n\t\t\t\t"
+    - '2017-01-09 04:37:54.971489'
+    - '2017-01-09 04:37:54.971489'
+    - "/deportes/otros-deportes/djokovic-vencio-a-murray-en-doha-YD5720551"
+    - ''
+  - - 164
+    - 2
+    - " “Champeta” Velásquez es ahora técnico en el Ponyfútbol\n\t\t\t\t"
+    - " “Champeta” Velásquez es ahora técnico en el Ponyfútbol\n\t\t\t\t"
+    - '2017-01-09 04:37:54.975850'
+    - '2017-01-09 04:37:54.975850'
+    - "/deportes/futbol/ivan-champeta-velasquez-es-tecnico-en-el-ponyfutbol-ID5720381"
+    - ''
+  - - 165
+    - 2
+    - " El pionero que guía a las chicas de Girardota\n\t\t\t\t"
+    - " El pionero que guía a las chicas de Girardota\n\t\t\t\t"
+    - '2017-01-09 04:37:54.979767'
+    - '2017-01-09 04:37:54.979767'
+    - "/deportes/futbol/ponyfutbol-entrenador-del-equipo-femenino-de-girardota-JD5720128"
+    - ''
+  - - 166
+    - 2
+    - " Voleibol, proyecto de vida en comunas 12 y 13\n\t\t\t\t"
+    - " Voleibol, proyecto de vida en comunas 12 y 13\n\t\t\t\t"
+    - '2017-01-09 04:37:54.983932'
+    - '2017-01-09 04:37:54.983932'
+    - "/deportes/otros-deportes/voleibol-proyecto-de-vida-en-las-comunas-de-medellin-XN5719880"
+    - ''
+  - - 167
+    - 2
+    - " El Dakar no pudo ver el lago Titicaca\n\t\t\t\t"
+    - " El Dakar no pudo ver el lago Titicaca\n\t\t\t\t"
+    - '2017-01-09 04:37:54.988128'
+    - '2017-01-09 04:37:54.988128'
+    - "/deportes/otros-deportes/rally-dakar-no-pudo-llegar-al-lago-titicaca-por-condiciones-climaticas-KN5719419"
+    - ''
+  - - 168
+    - 2
+    - " El antioqueño Mauricio Orozco correrá en el equipo sub-23 del Quick Step\n\t\t\t\t"
+    - " El antioqueño Mauricio Orozco correrá en el equipo sub-23 del Quick Step\n\t\t\t\t"
+    - '2017-01-09 04:37:54.991630'
+    - '2017-01-09 04:37:54.991630'
+    - "/deportes/ciclismo/el-antioqueno-mauricio-orozco-correra-en-el-equipo-sub-23-del-quick-step-AY5717310"
+    - ''
+  - - 169
+    - 2
+    - " “Ojalá sea un año lleno de títulos”: Ramos\n\t\t\t"
+    - " “Ojalá sea un año lleno de títulos”: Ramos\n\t\t\t"
+    - '2017-01-09 04:37:54.995018'
+    - '2017-01-09 04:37:54.995018'
+    - "/deportes/independiente-medellin/entrevista-a-nelson-ramos-arquero-del-deportivo-independiente-medellin-CD5720721"
+    - ''
+  - - 170
+    - 2
+    - " Juan José, un entregado a la dinámica del atletismo\n\t\t\t"
+    - " Juan José, un entregado a la dinámica del atletismo\n\t\t\t"
+    - '2017-01-09 04:37:54.998196'
+    - '2017-01-09 04:37:54.998196'
+    - "/deportes/otros-deportes/juan-jose-aranzazu-talento-del-atletismo-en-el-festival-de-festival-ID5720082"
+    - ''
+  - - 171
+    - 2
+    - " En las calles de Puerto Triunfo se forman nuevos campeones\n\t\t\t"
+    - " En las calles de Puerto Triunfo se forman nuevos campeones\n\t\t\t"
+    - '2017-01-09 04:37:55.001623'
+    - '2017-01-09 04:37:55.001623'
+    - "/deportes/otros-deportes/deportistas-de-puerto-triunfo-se-destacan-en-el-festival-de-festivales-EN5719996"
+    - ''
+  - - 172
+    - 2
+    - " Temporada ciclística de 2017 pinta sensacional\n\t\t\t"
+    - " Temporada ciclística de 2017 pinta sensacional\n\t\t\t"
+    - '2017-01-09 04:37:55.005470'
+    - '2017-01-09 04:37:55.005470'
+    - "/deportes/ciclismo/temporada-ciclistica-2017-para-nairo-quintana-y-esteban-chaves-IN5719684"
+    - ''
+  - - 173
+    - 2
+    - " La Serranía vive una utopía en  el Ponyfútbol\n\t\t\t"
+    - " La Serranía vive una utopía en  el Ponyfútbol\n\t\t\t"
+    - '2017-01-09 04:37:55.009064'
+    - '2017-01-09 04:37:55.009064'
+    - "/deportes/futbol/la-serrania-vive-una-utopia-en-el-ponyfutbol-BY5717120"
+    - ''
+  - - 174
+    - 2
+    - " Falcao, un gol cada 76 minutos\n\t\t\t"
+    - " Falcao, un gol cada 76 minutos\n\t\t\t"
+    - '2017-01-09 04:37:55.012413'
+    - '2017-01-09 04:37:55.012413'
+    - "/deportes/futbol-europeo/falcao-un-gol-cada-76-minutos-YX5716890"
+    - ''
+  - - 175
+    - 2
+    - La Fifa se viste de gala para recibir a los mejores del 2016
+    - La Fifa se viste de gala para recibir a los mejores del 2016
+    - '2017-01-09 04:38:20.315377'
+    - '2017-01-09 04:38:20.315377'
+    - "/"
+    - ''
+  - - 176
+    - 2
+    - Historia de Colombia en los premios de la Fifa
+    - Historia de Colombia en los premios de la Fifa
+    - '2017-01-09 04:38:20.321987'
+    - '2017-01-09 04:38:20.321987'
+    - "/"
+    - ''
+  - - 177
+    - 2
+    - Zidane, de  crack  como jugador a técnico exitoso
+    - Zidane, de  crack  como jugador a técnico exitoso
+    - '2017-01-09 04:38:20.325544'
+    - '2017-01-09 04:38:20.325544'
+    - "/"
+    - ''
+  - - 178
+    - 2
+    - Claudio Ranieri, el técnico que hizo posible lo imposible
+    - Claudio Ranieri, el técnico que hizo posible lo imposible
+    - '2017-01-09 04:38:20.328750'
+    - '2017-01-09 04:38:20.328750'
+    - "/"
+    - ''
+  - - 179
+    - 2
+    - Fernando Santos, el estratega detrás del éxito portugués en Francia
+    - Fernando Santos, el estratega detrás del éxito portugués en Francia
+    - '2017-01-09 04:38:20.333035'
+    - '2017-01-09 04:38:20.333035'
+    - "/"
+    - ''
+  - - 180
+    - 2
+    - Conozca los candidatos al premio Puskas a mejor gol del año
+    - Conozca los candidatos al premio Puskas a mejor gol del año
+    - '2017-01-09 04:38:20.336931'
+    - '2017-01-09 04:38:20.336931'
+    - "/"
+    - ''
+  - - 181
+    - 2
+    - Nuevo  boom  de técnicos extranjeros en la Liga local
+    - Nuevo  boom  de técnicos extranjeros en la Liga local
+    - '2017-01-09 04:38:20.340576'
+    - '2017-01-09 04:38:20.340576'
+    - "/"
+    - ''
+  - - 182
+    - 2
+    - Messi, el  pibe  de Rosario que se hizo hombre en Barcelona
+    - Messi, el  pibe  de Rosario que se hizo hombre en Barcelona
+    - '2017-01-09 04:38:20.344732'
+    - '2017-01-09 04:38:20.344732'
+    - "/"
+    - ''
+  - - 183
+    - 2
+    - Antoine Griezmann, el goleador francés que pide pista
+    - Antoine Griezmann, el goleador francés que pide pista
+    - '2017-01-09 04:38:20.348046'
+    - '2017-01-09 04:38:20.348046'
+    - "/"
+    - ''
+  - - 184
+    - 2
+    - Nacional, por el premio Fair Play de la Fifa
+    - Nacional, por el premio Fair Play de la Fifa
+    - '2017-01-09 04:38:20.351170'
+    - '2017-01-09 04:38:20.351170'
+    - "/"
+    - ''
+  - - 185
+    - 2
+    - Así se mueve la bolsa de jugadores para la Liga 2017-I
+    - Así se mueve la bolsa de jugadores para la Liga 2017-I
+    - '2017-01-09 04:38:20.354560'
+    - '2017-01-09 04:38:20.354560'
+    - "/"
+    - ''
+  - - 186
+    - 2
+    - 'Cristiano Ronaldo, el portugués que busca el primer  The Best '
+    - 'Cristiano Ronaldo, el portugués que busca el primer  The Best '
+    - '2017-01-09 04:38:20.357824'
+    - '2017-01-09 04:38:20.357824'
+    - "/"
+    - ''
+  - - 187
+    - 2
+    - Milán, con gol de Bacca, derrotó 1-0 a Cagliari y se acercó a la Juve
+    - Milán, con gol de Bacca, derrotó 1-0 a Cagliari y se acercó a la Juve
+    - '2017-01-09 04:38:20.360981'
+    - '2017-01-09 04:38:20.360981'
+    - "/"
+    - ''
+  - - 188
+    - 2
+    - Dayro Moreno llegó a un preacuerdo con Atlético Nacional para el 2017
+    - Dayro Moreno llegó a un preacuerdo con Atlético Nacional para el 2017
+    - '2017-01-09 04:38:20.364119'
+    - '2017-01-09 04:38:20.364119'
+    - "/"
+    - ''
+  - - 189
+    - 2
+    - Gustavo Costas no tendría en cuenta a Yulián Anchico para el 2017
+    - Gustavo Costas no tendría en cuenta a Yulián Anchico para el 2017
+    - '2017-01-09 04:38:20.367422'
+    - '2017-01-09 04:38:20.367422'
+    - "/"
+    - ''
+  - - 190
+    - 2
+    - 'Juventus sigue de líder en Italia: venció 3-0 al Bologna'
+    - 'Juventus sigue de líder en Italia: venció 3-0 al Bologna'
+    - '2017-01-09 04:38:20.370451'
+    - '2017-01-09 04:38:20.370451'
+    - "/"
+    - ''
+  - - 191
+    - 2
+    - 'Cristiano quiere cerrar su mejor año con el premio  The Best '
+    - 'Cristiano quiere cerrar su mejor año con el premio  The Best '
+    - '2017-01-09 04:38:20.373666'
+    - '2017-01-09 04:38:20.373666'
+    - "/"
+    - ''
+  - - 192
+    - 2
+    - 'Chelsea está en la cuarta ronda de la FA: derrotó 4-1 al Peterborough'
+    - 'Chelsea está en la cuarta ronda de la FA: derrotó 4-1 al Peterborough'
+    - '2017-01-09 04:38:20.376986'
+    - '2017-01-09 04:38:20.376986'
+    - "/"
+    - ''
+  - - 193
+    - 2
+    - Roma venció 0-1 al Génova y sigue de cerca a la Juventus
+    - Roma venció 0-1 al Génova y sigue de cerca a la Juventus
+    - '2017-01-09 04:38:20.380201'
+    - '2017-01-09 04:38:20.380201'
+    - "/"
+    - ''
+  - - 194
+    - 2
+    - Real Madrid goleó 5-0 al Granada y sigue de líder en España
+    - Real Madrid goleó 5-0 al Granada y sigue de líder en España
+    - '2017-01-09 04:38:20.383235'
+    - '2017-01-09 04:38:20.383235'
+    - "/"
+    - ''
+  - - 195
+    - 2
+    - 'Inter completó su cuarta victoria consecutiva: derrotó 1-2 a Udinese'
+    - 'Inter completó su cuarta victoria consecutiva: derrotó 1-2 a Udinese'
+    - '2017-01-09 04:38:20.386513'
+    - '2017-01-09 04:38:20.386513'
+    - "/"
+    - ''
+  - - 196
+    - 2
+    - Millonarios ya tiene a su DT, ahora faltan los refuerzos de peso
+    - Millonarios ya tiene a su DT, ahora faltan los refuerzos de peso
+    - '2017-01-09 04:38:20.390370'
+    - '2017-01-09 04:38:20.390370'
+    - "/"
+    - ''
+  - - 197
+    - 2
+    - Nelson Ramos, nuevo jugador del Medellín
+    - Nelson Ramos, nuevo jugador del Medellín
+    - '2017-01-09 04:38:20.393686'
+    - '2017-01-09 04:38:20.393686'
+    - "/"
+    - ''
+  - - 198
+    - 2
+    - Santa Fe espera más abonados en la última semana de preventa
+    - Santa Fe espera más abonados en la última semana de preventa
+    - '2017-01-09 04:38:20.397251'
+    - '2017-01-09 04:38:20.397251'
+    - "/"
+    - ''
+  - - 199
+    - 2
+    - James, un doblete de Año Nuevo en su deseo de ser titular
+    - James, un doblete de Año Nuevo en su deseo de ser titular
+    - '2017-01-09 04:38:20.400667'
+    - '2017-01-09 04:38:20.400667'
+    - "/"
+    - ''
+  - - 200
+    - 2
+    - Carlos Bacca sería otro de los objetivos del fútbol chino
+    - Carlos Bacca sería otro de los objetivos del fútbol chino
+    - '2017-01-09 04:38:20.403672'
+    - '2017-01-09 04:38:20.403672'
+    - "/"
+    - ''
+  - - 201
+    - 2
+    - El club Chapecoense presentó sus primeros tres refuerzos
+    - El club Chapecoense presentó sus primeros tres refuerzos
+    - '2017-01-09 04:38:20.406796'
+    - '2017-01-09 04:38:20.406796'
+    - "/"
+    - ''
+  - - 202
+    - 2
+    - Listos los clasificados a la postemporada del béisbol en Colombia
+    - Listos los clasificados a la postemporada del béisbol en Colombia
+    - '2017-01-09 04:38:20.410051'
+    - '2017-01-09 04:38:20.410051'
+    - "/"
+    - ''
+  - - 203
+    - 2
+    - Spurs consolidan segunda mejor marca de la NBA
+    - Spurs consolidan segunda mejor marca de la NBA
+    - '2017-01-09 04:38:20.413593'
+    - '2017-01-09 04:38:20.413593'
+    - "/"
+    - ''
+  - - 204
+    - 2
+    - El piloto colombiano Christian Cajicá se retira del Dakar 2017
+    - El piloto colombiano Christian Cajicá se retira del Dakar 2017
+    - '2017-01-09 04:38:20.416834'
+    - '2017-01-09 04:38:20.416834'
+    - "/"
+    - ''
+  - - 205
+    - 2
+    - Colombia alumbra el Competidor Integral
+    - Colombia alumbra el Competidor Integral
+    - '2017-01-09 04:38:20.420016'
+    - '2017-01-09 04:38:20.420016'
+    - "/"
+    - ''
+  - - 206
+    - 2
+    - China avanza sobre los mercados del fútbol
+    - China avanza sobre los mercados del fútbol
+    - '2017-01-09 04:38:20.424085'
+    - '2017-01-09 04:38:20.424085'
+    - "/"
+    - ''
+  - - 207
+    - 2
+    - Meluk le cuenta... (A Dios hay que echarle una manito)
+    - Meluk le cuenta... (A Dios hay que echarle una manito)
+    - '2017-01-09 04:38:20.427511'
+    - '2017-01-09 04:38:20.427511'
+    - "/"
+    - ''
+  - - 208
+    - 2
+    - Meluk le cuenta... (Oda a la humilde grandeza)
+    - Meluk le cuenta... (Oda a la humilde grandeza)
+    - '2017-01-09 04:38:20.431171'
+    - '2017-01-09 04:38:20.431171'
+    - "/"
+    - ''
+  - - 209
+    - 2
+    - 'Barcelona, con un golazo de Messi, empató 1-1 contra el Villarreal '
+    - 'Barcelona, con un golazo de Messi, empató 1-1 contra el Villarreal '
+    - '2017-01-09 04:38:20.434445'
+    - '2017-01-09 04:38:20.434445'
+    - "/"
+    - ''
+  - - 210
+    - 2
+    - 'El fútbol se pregunta: ¿quién podría suceder a Cristiano y Messi?'
+    - 'El fútbol se pregunta: ¿quién podría suceder a Cristiano y Messi?'
+    - '2017-01-09 04:38:20.438009'
+    - '2017-01-09 04:38:20.438009'
+    - "/"
+    - ''
+  - - 211
+    - 3
+    - Concurso en Duitama mide la habilidad de meseros del país
+    - Concurso en Duitama mide la habilidad de meseros del país
+    - '2017-01-09 04:38:33.179861'
+    - '2017-01-09 04:38:33.179861'
+    - "/"
+    - ''
+  - - 212
+    - 3
+    - Muere bebé de 11 meses por desnutrición en La Guajira
+    - Muere bebé de 11 meses por desnutrición en La Guajira
+    - '2017-01-09 04:38:33.187007'
+    - '2017-01-09 04:38:33.187007'
+    - "/"
+    - ''
+  - - 213
+    - 3
+    - La historia del  cazademandas  que debe someterse a examen siquiátrico
+    - La historia del  cazademandas  que debe someterse a examen siquiátrico
+    - '2017-01-09 04:38:33.190819'
+    - '2017-01-09 04:38:33.190819'
+    - "/"
+    - ''
+  - - 214
+    - 3
+    - Incautan más de 1.000 galones de gasolina en frontera con Venezuela
+    - Incautan más de 1.000 galones de gasolina en frontera con Venezuela
+    - '2017-01-09 04:38:33.194584'
+    - '2017-01-09 04:38:33.194584'
+    - "/"
+    - ''
+  - - 215
+    - 3
+    - Fiesta y carrozas gigantes cerraron el Carnaval de Negros y Blancos
+    - Fiesta y carrozas gigantes cerraron el Carnaval de Negros y Blancos
+    - '2017-01-09 04:38:33.198777'
+    - '2017-01-09 04:38:33.198777'
+    - "/"
+    - ''
+  - - 216
+    - 3
+    - Cada día mueren 18 personas en accidentes vehiculares en el país
+    - Cada día mueren 18 personas en accidentes vehiculares en el país
+    - '2017-01-09 04:38:33.202312'
+    - '2017-01-09 04:38:33.202312'
+    - "/"
+    - ''
+  - - 217
+    - 3
+    - 'Carlos Alberto Ruiz, excurador del Space, de nuevo en la Curaduría '
+    - 'Carlos Alberto Ruiz, excurador del Space, de nuevo en la Curaduría '
+    - '2017-01-09 04:38:33.205623'
+    - '2017-01-09 04:38:33.205623'
+    - "/"
+    - ''
+  - - 218
+    - 3
+    - Nueve meses de incertidumbre para la familia de Odín Sánchez
+    - Nueve meses de incertidumbre para la familia de Odín Sánchez
+    - '2017-01-09 04:38:33.208828'
+    - '2017-01-09 04:38:33.208828'
+    - "/"
+    - ''
+  - - 219
+    - 3
+    - Terror en el Cauca por mujer que fue decapitada por su expareja
+    - Terror en el Cauca por mujer que fue decapitada por su expareja
+    - '2017-01-09 04:38:33.212101'
+    - '2017-01-09 04:38:33.212101'
+    - "/"
+    - ''
+  - - 220
+    - 3
+    - " El Juli , gran triunfador del festival benéfico de Feria de Manizales"
+    - " El Juli , gran triunfador del festival benéfico de Feria de Manizales"
+    - '2017-01-09 04:38:33.215228'
+    - '2017-01-09 04:38:33.215228'
+    - "/"
+    - ''
+  - - 221
+    - 3
+    - 'En fotos: La sorpresiva granizada que cubrió montañas en Santander '
+    - 'En fotos: La sorpresiva granizada que cubrió montañas en Santander '
+    - '2017-01-09 04:38:33.218558'
+    - '2017-01-09 04:38:33.218558'
+    - h
+    - ''
+  - - 222
+    - 3
+    - 'No habrá paso vehicular por la frontera en Cúcuta: canciller Holguín'
+    - 'No habrá paso vehicular por la frontera en Cúcuta: canciller Holguín'
+    - '2017-01-09 04:38:33.221758'
+    - '2017-01-09 04:38:33.221758'
+    - "/"
+    - ''
+  - - 223
+    - 3
+    - Caída de ladrillos en feria de Santander deja un muerto y 24 heridos
+    - Caída de ladrillos en feria de Santander deja un muerto y 24 heridos
+    - '2017-01-09 04:38:33.224918'
+    - '2017-01-09 04:38:33.224918'
+    - "/"
+    - ''
+  - - 224
+    - 3
+    - 'Tener cerrado tramo de vía a Copacabana cuesta $500 millones diarios '
+    - 'Tener cerrado tramo de vía a Copacabana cuesta $500 millones diarios '
+    - '2017-01-09 04:38:33.228546'
+    - '2017-01-09 04:38:33.228546'
+    - "/"
+    - ''
+  - - 225
+    - 3
+    - Hombre ingirió 9.600 dólares para ingresarlos ilegalmente a Colombia
+    - Hombre ingirió 9.600 dólares para ingresarlos ilegalmente a Colombia
+    - '2017-01-09 04:38:33.231715'
+    - '2017-01-09 04:38:33.231715'
+    - "/"
+    - ''
+  - - 226
+    - 4
+    - Breve guía  youtuber  para extraterrestres
+    - Breve guía  youtuber  para extraterrestres
+    - '2017-01-09 04:39:20.343282'
+    - '2017-01-09 04:39:20.343282'
+    - "/"
+    - ''
+  - - 227
+    - 4
+    - "¿Son culpables los fabricantes por el mal uso de sus productos?"
+    - "¿Son culpables los fabricantes por el mal uso de sus productos?"
+    - '2017-01-09 04:39:20.349543'
+    - '2017-01-09 04:39:20.349543'
+    - "/"
+    - ''
+  - - 228
+    - 4
+    - Los computadores más asombrosos de la feria tecnológica CES
+    - Los computadores más asombrosos de la feria tecnológica CES
+    - '2017-01-09 04:39:20.352941'
+    - '2017-01-09 04:39:20.352941'
+    - "/"
+    - ''
+  - - 229
+    - 4
+    - Estos son los mejores celulares de la feria tecnológica CES
+    - Estos son los mejores celulares de la feria tecnológica CES
+    - '2017-01-09 04:39:20.356652'
+    - '2017-01-09 04:39:20.356652'
+    - "/"
+    - ''
+  - - 230
+    - 4
+    - 'Crónica: así se vive la feria tecnológica más grande del mundo'
+    - 'Crónica: así se vive la feria tecnológica más grande del mundo'
+    - '2017-01-09 04:39:20.360399'
+    - '2017-01-09 04:39:20.360399'
+    - "/"
+    - ''
+  - - 231
+    - 4
+    - Se inaugurará wifi gratis en 11 zonas del país
+    - Se inaugurará wifi gratis en 11 zonas del país
+    - '2017-01-09 04:39:20.364126'
+    - '2017-01-09 04:39:20.364126'
+    - "/"
+    - ''
+  - - 232
+    - 4
+    - Conozca el portátil que vale casi 30 millones de pesos
+    - Conozca el portátil que vale casi 30 millones de pesos
+    - '2017-01-09 04:39:20.367482'
+    - '2017-01-09 04:39:20.367482'
+    - "/"
+    - ''
+  - - 233
+    - 4
+    - 'Diez curiosidades de la feria tecnológica CES 2017 '
+    - 'Diez curiosidades de la feria tecnológica CES 2017 '
+    - '2017-01-09 04:39:20.371549'
+    - '2017-01-09 04:39:20.371549'
+    - "/"
+    - ''
+  - - 234
+    - 4
+    - Tecnología para el cuidado personal brilla en la feria CES
+    - Tecnología para el cuidado personal brilla en la feria CES
+    - '2017-01-09 04:39:20.374720'
+    - '2017-01-09 04:39:20.374720'
+    - "/"
+    - ''
+  - - 235
+    - 4
+    - App Store bate récord de ventas el primer día de 2017
+    - App Store bate récord de ventas el primer día de 2017
+    - '2017-01-09 04:39:20.378308'
+    - '2017-01-09 04:39:20.378308'
+    - "/"
+    - ''
+  - - 236
+    - 4
+    - La estrategia de BMW de usar realidad aumentada para vender carros
+    - La estrategia de BMW de usar realidad aumentada para vender carros
+    - '2017-01-09 04:39:20.382805'
+    - '2017-01-09 04:39:20.382805'
+    - "/"
+    - ''
+  - - 237
+    - 4
+    - Los mejores televisores presentados en el CES 2017
+    - Los mejores televisores presentados en el CES 2017
+    - '2017-01-09 04:39:20.386183'
+    - '2017-01-09 04:39:20.386183'
+    - "/"
+    - ''
+  - - 238
+    - 4
+    - 'CES 2017: Las tecnológicas hacen sus apuestas en Las Vegas'
+    - 'CES 2017: Las tecnológicas hacen sus apuestas en Las Vegas'
+    - '2017-01-09 04:39:20.389649'
+    - '2017-01-09 04:39:20.389649'
+    - "/"
+    - ''
+  - - 239
+    - 4
+    - "¿Una ciudad inteligente en el mar? Este  gadget  quiere lograrlo"
+    - "¿Una ciudad inteligente en el mar? Este  gadget  quiere lograrlo"
+    - '2017-01-09 04:39:20.393144'
+    - '2017-01-09 04:39:20.393144'
+    - "/"
+    - ''
+  - - 240
+    - 4
+    - Los operadores que más ganaron usuarios en el tercer trimestre de 2016
+    - Los operadores que más ganaron usuarios en el tercer trimestre de 2016
+    - '2017-01-09 04:39:20.396326'
+    - '2017-01-09 04:39:20.396326'
+    - "/"
+    - ''
+  - - 241
+    - 4
+    - "¿Problemas para parquear?, este carro inteligente se estaciona solo"
+    - "¿Problemas para parquear?, este carro inteligente se estaciona solo"
+    - '2017-01-09 04:39:20.399413'
+    - '2017-01-09 04:39:20.399413'
+    - "/"
+    - ''
+  - - 242
+    - 4
+    - Vea acá lo mejor de Tecnósfera TV de la semana
+    - Vea acá lo mejor de Tecnósfera TV de la semana
+    - '2017-01-09 04:39:20.402500'
+    - '2017-01-09 04:39:20.402500'
+    - "/"
+    - ''
+  - - 243
+    - 4
+    - Vea acá lo mejor de Tecnósfera TV de la semana
+    - Vea acá lo mejor de Tecnósfera TV de la semana
+    - '2017-01-09 04:39:20.405967'
+    - '2017-01-09 04:39:20.405967'
+    - "/"
+    - ''
+  - - 244
+    - 4
+    - Conozca la  app  que quiere mejorar la experiencia de salir a comer
+    - Conozca la  app  que quiere mejorar la experiencia de salir a comer
+    - '2017-01-09 04:39:20.409683'
+    - '2017-01-09 04:39:20.409683'
+    - "/"
+    - ''
+  - - 245
+    - 4
+    - En Bogotá se llevará a cabo un torneo nacional de Pokémon
+    - En Bogotá se llevará a cabo un torneo nacional de Pokémon
+    - '2017-01-09 04:39:20.412849'
+    - '2017-01-09 04:39:20.412849'
+    - "/"
+    - ''
+  - - 246
+    - 4
+    - Niños pasan entre 5 y 10 horas a la semana en internet
+    - Niños pasan entre 5 y 10 horas a la semana en internet
+    - '2017-01-09 04:39:20.416445'
+    - '2017-01-09 04:39:20.416445'
+    - "/"
+    - ''
+  - - 247
+    - 4
+    - Internet móvil crecerá 50 % en próximos 4 años en América Latina
+    - Internet móvil crecerá 50 % en próximos 4 años en América Latina
+    - '2017-01-09 04:39:20.419532'
+    - '2017-01-09 04:39:20.419532'
+    - "/"
+    - ''
+  - - 248
+    - 4
+    - 'Terrorismo en la red: ¿de la alarma al sensacionalismo?'
+    - 'Terrorismo en la red: ¿de la alarma al sensacionalismo?'
+    - '2017-01-09 04:39:20.422771'
+    - '2017-01-09 04:39:20.422771'
+    - "/"
+    - ''
+  - - 249
+    - 4
+    - Facebook le pagó 10.000 dólares a un niño de 10 años
+    - Facebook le pagó 10.000 dólares a un niño de 10 años
+    - '2017-01-09 04:39:20.426791'
+    - '2017-01-09 04:39:20.426791'
+    - "/"
+    - ''
+  - - 250
+    - 4
+    - 'Hangout: ¿Llegó o no el hombre a la Luna?'
+    - 'Hangout: ¿Llegó o no el hombre a la Luna?'
+    - '2017-01-09 04:39:20.430189'
+    - '2017-01-09 04:39:20.430189'
+    - "/"
+    - ''
+  - - 251
+    - 4
+    - Hangout con Jackson Galaxy, el encantador de gatos
+    - Hangout con Jackson Galaxy, el encantador de gatos
+    - '2017-01-09 04:39:20.434103'
+    - '2017-01-09 04:39:20.434103'
+    - "/"
+    - ''
+  - - 252
+    - 4
+    - Conozca cómo aplicar a becas de maestría en el Reino Unido
+    - Conozca cómo aplicar a becas de maestría en el Reino Unido
+    - '2017-01-09 04:39:20.438155'
+    - '2017-01-09 04:39:20.438155'
+    - "/"
+    - ''
+  - - 253
+    - 4
+    - Silvestre Dangond habló sobre su nueva canción con Nicky Jam
+    - Silvestre Dangond habló sobre su nueva canción con Nicky Jam
+    - '2017-01-09 04:39:20.442459'
+    - '2017-01-09 04:39:20.442459'
+    - "/"
+    - ''
